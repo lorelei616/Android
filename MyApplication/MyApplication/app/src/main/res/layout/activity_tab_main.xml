@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#f0f0f0">
+
+<!--    <EditText-->
+<!--        android:id="@+id/input_message"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:hint="Type something"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/send"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="Send" />-->
+
+
+
+    <q.rorbin.verticaltablayout.VerticalTabLayout
+        android:id="@+id/tablayout2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.9"
+        android:background="#ffffff"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:visibility="visible"
+        app:indicator_color="#e85e6c"
+        app:indicator_corners="8dp"
+        app:indicator_gravity="fill"
+        app:tab_margin="10dp"
+        app:tab_mode="scrollable" />
+
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4.9"/>
+</LinearLayout>
